@@ -1,8 +1,8 @@
 imagePullPolicy: IfNotPresent
 images:
-  orchestratorVersion: 1.1
-  workerVersion: 1.1
-
+  tags:
+    worker: endianogino/netperf:1.1
+    orchestrator: endianogino/netperf:1.1
 debug:
   orchestrator: false
   worker: false
